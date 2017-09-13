@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">text_2</string>
+    <string name="ask_1">向小A提问</string>
+    <string name="ask_2">向小B提问</string>
+    <string name="answer">回答</string>
+    <string name="title_activity_answer_1">answer_1</string>
+    <string name="title_activity_answer_2">answer_2</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.text_2.answer_2">
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="398dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/WenTin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:text="问题是：" />
+
+        <TextView
+            android:id="@+id/内容"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/editText_answer_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.34"
+            android:gravity="top"
+            android:hint="小B来回答问题。"
+            android:textSize="40sp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.08"
+            android:text="@string/answer"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="231dp" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

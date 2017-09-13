@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">text_1</string>
+    <string name="loginX">login</string>
+    <string name="loginT">loginT</string>
+    <string name="cancel">cancel</string>
+    <string name="UserId">editTextUserId</string>
+    <string name="Password">editTextPwd</string>
+    <string name="title_activity_deng_lu">DengLu</string>
+</resources>
